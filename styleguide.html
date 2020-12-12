@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="styleguidestyles.css" rel="stylesheet">
+    <title>P3-STYLEGUIDE</title>
+  </head>
+
+  <body>
+    <h1>IAT339 - P03</h1>
+    <h2>STYLEGUIDE</h2>
+    <section>
+      <h3>Contents</h3>
+      <nav id="proj-nav">
+          <div class="center">
+            <ul>
+                <li><a class="button-nav" href="#inter">basic interactive elements</a></li>
+                <li><a class="button-nav"  href="#text-styling">text styling</a></li>
+                <li><a class="button-nav" href="#modular-pattern">modular pattern</a></li>
+                <li><a class="button-nav" href="index.html">projects home</a></li>
+                <li><a class="button-nav" href="citation.html">Citations</a></li>
+            </ul>
+          </div>
+      </nav>
+    </section>
+    <section>
+      <section id="interactive_elements">
+            <!-- Default Button styling section -->
+            <h1 id="inter">Basic Interactive Elements</h1>
+            <section>
+                <h2>In-text link</h2>
+
+                <h3>CSS selector:</h3>
+                <p>.in-text-link</p>
+
+                <h3>Sample code:</h3>
+                <code>&lt;a href="#" class="in-text-link"&gt;In-text link&lt;/a&gt;</code>
+
+                <h3>Rendered element:</h3>
+                <a class="in-text-link" href="#">In-text link</a>
+            </section>
+            <section>
+                <h1>Navigation Button</h1>
+
+                <h2>CSS selector:</h2>
+                <p>#home-nav</p>
+
+                <h3>Sample code:</h3>
+                <code>
+                    &lt;div id="home-nav"&gt; <br> &nbsp;&lt;nav&gt; <br> &nbsp;&nbsp;&lt;ul&gt; <br> &nbsp;&nbsp;&nbsp;&lt;li&gt; <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&lt;a href="#"&gt;Default Button&lt;/a&gt;
+                    <br> &nbsp;&nbsp;&nbsp;&lt;/li&gt; <br> &nbsp;&nbsp;&lt;/ul&gt; <br> &nbsp;&lt;/nav&gt;<br> &lt;/div&gt; <br>
+                </code>
+                <h3>Rendered element:</h3>
+                <nav id="mainnav-btn">
+                    <ul>
+                        <li>
+                            <a href="#">Navigation Button</a>
+                        </li>
+                    </ul>
+                </nav>
+            </section>
+
+            <section>
+                <h1>Buttons</h1>
+
+                <h2>CSS selector:</h2>
+                <p>.button</p>
+
+                <h3>Sample code:</h3>
+                <code>&lt;a href="#" class="button"&gt;Submit/Reset Button&lt;/a&gt;</code>
+
+                <h3>Rendered element:</h3>
+                <a class="button" href="#">Button</a>
+            </section>
+            <section>
+                <h1>Website Color Swatches</h1>
+
+                <h2>CSS selector:</h2>
+                <p>.container .color-swatch .blue .red .gray .darkergray .white </p>
+
+                <h3>Sample code:</h3>
+                <code>
+                    &lt;div class="container"&gt;
+                      &lt;p class="color-swatch blue"&gt;#2C467D&lt;/p&gt;
+                      &lt;p class="color-swatch red"&gt;#FF454&lt;/p&gt;
+                      &lt;p class="color-swatch gray"&gt;#F5F5F5&lt;/p&gt;
+                      &lt;p class="color-swatch darkergray"&gt;#5B5B5B&lt;/p&gt;
+                      &lt;p class="color-swatch white"&gt;#FFFFFF&lt;/p&gt;
+                    &lt;/div&gt;"
+                </code>
+
+                <h3>Rendered element:</h3>
+                <div class="container">
+                  <p class="color-swatch blue">#2C467D</p>
+                  <p class="color-swatch red">#FF454</p>
+                  <p class="color-swatch gray">#F5F5F5</p>
+                  <p class="color-swatch darkergray">#5B5B5B</p>
+                  <p class="color-swatch white">#FFFFFF</p>
+                </div>
+            </section>
+        </section>
+    </section>
+    <section id="text-style">
+
+            <section>
+                <h1 id="text-styling">Text Styling</h1>
+
+                <div class="heading-wrapper">
+                    <h2>CSS selector for Heading 1:</h2>
+                    <p>h1</p>
+
+                    <h3>Sample code:</h3>
+                    <code>&lt;h1 id="h1-style"&gt;Heading 1&lt;/h1&gt;</code>
+
+                    <h3>Rendered element:</h3>
+                    <h1 id="h1-style">Heading 1</h1>
+                </div>
+
+                <div class="heading-wrapper">
+                    <h2>CSS selector for Heading 2:</h2>
+                    <p>h2</p>
+
+                    <h3>Sample code:</h3>
+                    <code>&lt;h2&gt;Heading 2&lt;/h2&gt;</code>
+
+                    <h3>Rendered element:</h3>
+                    <h2>Heading 2</h2>
+                </div>
+
+                <div class="heading-wrapper">
+                    <h3>CSS selector for Heading 3:</h3>
+                    <p>h3</p>
+
+                    <h3>Sample code:</h3>
+                    <code>&lt;h3&gt;Heading 3&lt;/h3&gt;</code>
+
+                    <h3>Rendered element:</h3>
+                    <h3>Heading 3</h3>
+                </div>
+            </section>
+
+            <section>
+                <h1>Paragraphs</h1>
+
+                <h2>CSS selector:</h2>
+                <p>p</p>
+
+                <h3>Sample code:</h3>
+                <code>&lt;p&gt;Paragraph&lt;/p&gt;</code>
+
+                <h3>Rendered element:</h3>
+                <p>Paragraph</p>
+            </section>
+
+            <section>
+                <h1>Unordered</h1>
+
+                <h2>CSS selector:</h2>
+                <p>ul</p>
+
+                <h3>Sample code:</h3>
+                <code>
+                    &lt;ul&gt;<br>
+                    &nbsp;&lt;li&gt;Unordered list 1&lt;/li&gt;<br>
+                    &nbsp;&lt;li&gt;Unordered list 2&lt;/li&gt;<br>
+                    &nbsp;&lt;li&gt;Unordered list 3&lt;/li&gt;<br>
+                    &lt;/ul&gt;<br>
+                </code>
+
+                <h3>Rendered element:</h3>
+                <ul>
+                    <li>Unordered list 1</li>
+                    <li>Unordered list 2</li>
+                    <li>Unordered list 3</li>
+                </ul>
+            </section>
+
+            <section>
+                <h1>Ordered Lists</h1>
+
+                <h2>CSS selector:</h2>
+                <p>ol</p>
+
+                <h3>Sample code:</h3>
+                <code>
+                    &lt;ol&gt;<br>
+                    &nbsp;&lt;li&gt;Ordered list 1&lt;/li&gt;<br>
+                    &nbsp;&lt;li&gt;Ordered list 2&lt;/li&gt;<br>
+                    &nbsp;&lt;li&gt;Ordered list 3&lt;/li&gt;<br>
+                    &lt;/ol&gt;
+                </code>
+
+                <h3>Rendered element:</h3>
+                <ol>
+                    <li>Ordered list 1</li>
+                    <li>Ordered list 2</li>
+                    <li>Ordered list 3</li>
+                </ol>
+            </section>
+        </section>
+    <section id="modular_pattern">
+        <h1 id="modular-pattern">Modular Pattern Elements</h1>
+          <section>
+                  <h1>Main Navigation</h1>
+
+                  <h2>CSS selector:</h2>
+                  <p>nav, a</p>
+
+                  <h3>Sample code:</h3>
+                  <code>
+                    &lt;nav id="home-nav"&gt;
+                      &lt;div class="center"&gt;
+                        &lt;ul&gt;
+                            &lt;li&gt;&lt;a class="button-nav" href="#"&gt;ABOUT&lt;/a&gt;&lt;/li&gt;
+                            &lt;li&gt;&lt;a class="button-nav" href="#"&gt;PROJECTS&lt;/a&gt;&lt;/li&gt;
+                            &lt;li&gt;&lt;a class="button-nav" href="#"&gt;N/A&lt;/a&gt;
+                            &lt;/li&gt;&lt;li&gt;&lt;a class="button-nav" href="#"&gt;SKILLS&lt;/a&gt;&lt;/li&gt;
+                            &lt;li&gt;&lt;a class="button-nav" href="#"&gt;CONTACT&lt;/a&gt;&lt;/li&gt;
+                        &lt;/ul&gt;
+                      &lt;/div&gt;
+                    &lt;/nav&gt;
+                  </code>
+
+                  <h3>Rendered element:</h3>
+
+                  <nav id="home-nav">
+                    <div class="center">
+                      <ul>
+                          <li><a class="button-nav" href="#">ABOUT</a></li>
+                          <li><a class="button-nav" href="#">PROJECTS</a></li>
+                          <li><a class="button-nav" href="#">N/A</a>
+                          </li><li><a class="button-nav" href="#">SKILLS</a></li>
+                          <li><a class="button-nav" href="#">CONTACT</a></li>
+                      </ul>
+                    </div>
+                  </nav>
+        </section>
+        <section>
+                <h1>Project List Grid</h1>
+
+                <h2>CSS selector:</h2>
+                <p>div</p>
+
+                <h3>Sample code:</h3>
+                <code>
+                  &lt;section id="projects"&lt;
+                    &lt;a id="myworks"&gt;&lt;/a&gt;
+                    &lt;section id="works"&gt;
+                      &lt;div class="work-parent"&gt;
+                        &lt;div class="work-child"&gt;
+                          &lt;div class="work-desc"&gt;
+                            &lt;p&gt;This game was created in a team of two for the Community Game Jam 2019 in August. The language used when creating the game is Unity. The coding involves a lot of OOP. &lt;/p&gt;
+                            &lt;a href="deflect.html"&gt;See the project in detail&lt;/a&gt;
+                          &lt;/div&gt;
+                        &lt;/div&gt;
+                        &lt;div class="work-child-2"&gt;
+                          &lt;a href="deflect.html"&gt;&lt;h2&gt;Shadow Deflect&lt;/h2&gt;&lt;/a&gt;
+                        &lt;/div&gt;
+                      &lt;/div&gt;
+                      &lt;div class="work-parent-b"&gt;
+                        &lt;div class="work-child-b"&gt;
+                          &lt;div class="work-desc-b"&gt;
+                            &lt;p&gt;This final project is from the course Digital Games: Genre, Structure, Programming, and Play created in 2018. The language used in creating the game is processing that is java based. OOP and FSM were involved a lot in the project. The overall grade received was B+&lt;/p&gt;
+                            &lt;a href="casteria.html"&gt;See the project in detail&lt;/a&gt;
+                          &lt;/div&gt;
+                        &lt;/div&gt;
+                        &lt;div class="work-child-2-b"&gt;
+                          &lt;a href="casteria.html"&gt;&lt;h2&gt;Casteria&lt;/h2&gt;&lt;/a&gt;
+                        &lt;/div&gt;
+                      &lt;/div&gt;
+                    &lt;/section&gt;
+                  &lt;/section&gt;
+                </code>
+
+                <h3>Rendered element:</h3>
+                <section id="projects">
+                  <a id="myworks"></a>
+                  <section id="works">
+                    <div class="work-parent">
+                      <div class="work-child">
+                        <div class="work-desc">
+                          <p>This game was created in a team of two for the Community Game Jam 2019 in August. The language used when creating the game is Unity. The coding involves a lot of OOP. </p>
+                          <a href="deflect.html">See the project in detail</a>
+                        </div>
+                      </div>
+                      <div class="work-child-2">
+                        <a href="deflect.html"><h2>Shadow Deflect</h2></a>
+                      </div>
+                    </div>
+                    <div class="work-parent-b">
+                      <div class="work-child-b">
+                        <div class="work-desc-b">
+                          <p>This final project is from the course Digital Games: Genre, Structure, Programming, and Play created in 2018. The language used in creating the game is processing that is java based. OOP and FSM were involved a lot in the project. The overall grade received was B+</p>
+                          <a href="casteria.html">See the project in detail</a>
+                        </div>
+                      </div>
+                      <div class="work-child-2-b">
+                        <a href="casteria.html"><h2>Casteria</h2></a>
+                      </div>
+                    </div>
+                  </section>
+                </section>
+      </section>
+      <section>
+              <h1>Skills grid</h1>
+
+              <h2>CSS selector:</h2>
+              <p>div</p>
+
+              <h3>Sample code:</h3>
+              <code>
+                &lt;section id="skills"&gt;
+                  &lt;section id="skill"&gt;
+                    &lt;a id="skillslearned"&gt;&lt;/a&gt;
+                    &lt;h1&gt;SKILLS LEARNED&lt;/h1&gt;
+                    &lt;div class="intro-parent"&gt;
+                      &lt;div class="skills-child"&gt;
+                        &lt;h2&gt;Main Expertise:&lt;/h2&gt;
+                        &lt;div class="icon-text"&gt;
+                          &lt;div class="icon-img-child"&gt;
+                            &lt;img src="images/photoshop.png" alt="adobe ps"&gt;
+                          &lt;/div&gt;
+                          &lt;div class="icon-text-child"&gt;
+                            &lt;p&gt;Photoshop&lt;/p&gt;
+                          &lt;/div&gt;
+                        &lt;/div&gt;
+                        &lt;div class="icon-text"&gt;
+                          &lt;div class="icon-img-child"&gt;
+                            &lt;img src="images/experience.png" alt="adobe xd"&gt;
+                          &lt;/div&gt;
+                          &lt;div class="icon-text-child"&gt;
+                            &lt;p&gt;Adobe XD&lt;/p&gt;
+                          &lt;/div&gt;
+                        &lt;/div&gt;
+                        &lt;div class="icon-text"&gt;
+                          &lt;div class="icon-img-child"&gt;
+                            &lt;img src="images/java.png" alt="java"&gt;
+                          &lt;/div&gt;
+                          &lt;div class="icon-text-child"&gt;
+                            &lt;p&gt;Java&lt;/p&gt;
+                          &lt;/div&gt;
+                        &lt;/div&gt;
+
+                      &lt;/div&gt;
+                      &lt;div class="skills-child"&gt;
+                        &lt;h2&gt;Secondary:&lt;/h2&gt;
+                        &lt;div class="icon-text"&gt;
+                          &lt;div class="icon-img-child"&gt;
+                            &lt;img src="images/premier.png" alt="adobe pr"&gt;
+                          &lt;/div&gt;
+                          &lt;div class="icon-text-child"&gt;
+                            &lt;p&gt;Premiere Pro&lt;/p&gt;
+                          &lt;/div&gt;
+                        &lt;/div&gt;
+                        &lt;div class="icon-text"&gt;
+                          &lt;div class="icon-img-child"&gt;
+                            &lt;img src="images/illustrator.png" alt="adobe ai"&gt;
+                          &lt;/div&gt;
+                          &lt;div class="icon-text-child"&gt;
+                            &lt;p&gt;Illustrator&lt;/p&gt;
+                          &lt;/div&gt;
+                        &lt;/div&gt;
+                        &lt;div class="icon-text"&gt;
+                          &lt;div class="icon-img-child"&gt;
+                            &lt;img src="images/unity.png" alt="unity engine"&gt;
+                          &lt;/div&gt;
+                          &lt;div class="icon-text-child"&gt;
+                            &lt;p&gt;Unity&lt;/p&gt;
+                          &lt;/div&gt;
+                        &lt;/div&gt;
+                      &lt;/div&gt;
+                    &lt;/div&gt;
+                  &lt;/section&gt;
+                &lt;/section&gt;
+              </code>
+
+              <h3>Rendered element:</h3>
+
+              <section id="skills">
+                <section id="skill">
+                  <a id="skillslearned"></a>
+                  <div class="intro-parent">
+                    <div class="skills-child">
+                      <h2>Main Expertise:</h2>
+                      <div class="icon-text">
+                        <div class="icon-img-child">
+                          <img src="images/photoshop.png" alt="adobe ps">
+                        </div>
+                        <div class="icon-text-child">
+                          <p>Photoshop</p>
+                        </div>
+                      </div>
+                      <div class="icon-text">
+                        <div class="icon-img-child">
+                          <img src="images/experience.png" alt="adobe xd">
+                        </div>
+                        <div class="icon-text-child">
+                          <p>Adobe XD</p>
+                        </div>
+                      </div>
+                      <div class="icon-text">
+                        <div class="icon-img-child">
+                          <img src="images/java.png" alt="java">
+                        </div>
+                        <div class="icon-text-child">
+                          <p>Java</p>
+                        </div>
+                      </div>
+
+                    </div>
+                    <div class="skills-child">
+                      <h2>Secondary:</h2>
+                      <div class="icon-text">
+                        <div class="icon-img-child">
+                          <img src="images/premier.png" alt="adobe pr">
+                        </div>
+                        <div class="icon-text-child">
+                          <p>Premiere Pro</p>
+                        </div>
+                      </div>
+                      <div class="icon-text">
+                        <div class="icon-img-child">
+                          <img src="images/illustrator.png" alt="adobe ai">
+                        </div>
+                        <div class="icon-text-child">
+                          <p>Illustrator</p>
+                        </div>
+                      </div>
+                      <div class="icon-text">
+                        <div class="icon-img-child">
+                          <img src="images/unity.png" alt="unity engine">
+                        </div>
+                        <div class="icon-text-child">
+                          <p>Unity</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+              </section>
+              <div class="foot-container">
+                <div class="foot-child">
+                  <p><a href="citation.html">Citations</a></p>
+                </div>
+                <div class="foot-child">
+                  <p><a href="styleguide.html">Styleguide</a></p>
+                </div>
+                <div class="foot-child">
+                  <p><a href="wireframe.html">Wireframe</a></p>
+                </div>
+                <div class="foot-child-right">
+                  <p>&#169; 2020 Nikolas Abraham</p>
+                </div>
+              </div>
+    </section>
+    </section>
+  </body>
+</html>
