@@ -268,7 +268,7 @@ section{
     box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 8px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .work-desc p{
-  padding-top: 10em;
+  padding-top: 9.5em;
   padding-left: 5em;
   padding-right: 5em;
 }
@@ -347,8 +347,19 @@ section{
 .work-child-b{
   width:60%;
   background-color:#290B41;
-  height: 35em;
+  height: 35.7em;
   background-image: url("images/casteria.png");
+  background-repeat: no-repeat;
+  background-size: 550px 550px;
+  background-position: center;
+  box-shadow: 4px 4px 8px grey;
+
+}
+.work-child-c{
+  width:60%;
+  background-color:#0D1926;
+  height: 35.7em;
+  /*background-image: url("images/casteria.png");*/
   background-repeat: no-repeat;
   background-size: 550px 550px;
   background-position: center;
