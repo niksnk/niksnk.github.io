@@ -269,7 +269,7 @@ body:active * {
   animation: loadFade 3s;
 }
 .container-2{
-    padding-bottom: 15em;
+    padding-bottom: 1em;
     display: flex;
     flex-direction: row;
     align-items:center;
@@ -760,6 +760,7 @@ section{
 }
 #home-nav a{
   color: #2C467D;
+  font-family: "Varta";
   font-size: 1.5em;
   padding:0.8em;
   display: inline-block;
@@ -769,6 +770,9 @@ section{
   -ms-transition: color 0.2s linear;
   -moz-transition: color 0.2s linear;
   -webkit-transition: color 0.2s linear;
+}
+.button-nav-2{
+  font-family: "Lulo";
 }
 #home-nav ul{
     position: fixed;
@@ -790,7 +794,7 @@ section{
 .center{
   font-family: "Lulo";
   width: 100%;
-  text-align: center;
+  text-align: right;
   background-color: #F5F5F5;
   color: #2C467D;
   padding: 0.65rem;
@@ -934,9 +938,17 @@ section{
   body{
     position: relative;
   }
+  .container-2{
+    flex-direction: column;
+    padding-bottom: 1em;
+  }
+  .container-2-child p{
+    padding-top: 3em;
+    font-size: 0.5em;
+  }
   .container{
-    height: 300px;
-    padding-top: 20em;
+    height: 100px;
+    padding-top: 7em;
   }
   .container h1{
     font-size: 1.8em;
